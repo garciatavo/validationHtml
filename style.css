@@ -1,0 +1,111 @@
+body {
+  background-color: #282828;
+}
+
+div {
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+}
+
+form {
+  margin-left: 100px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 175px;
+}
+
+hr {
+  border: none;
+  width: 300px;
+  height: 10px;
+  background-color: red;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 3%;
+  margin-left: 175px;
+}
+
+p {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 175px;
+}
+
+input {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #797979;
+  margin-left: 75px;
+  width: 35%;
+  height: 45px;
+  float: left;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+input:invalid {
+  border: 3px solid red;
+}
+
+select#soflow {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  background-image: url(http://i60.tinypic.com/15nso5d.jpg);
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  /* text */
+  color: #797979;
+  font-size: 16px;
+  font-family: 'Merriweather';
+  font-style: italic;
+  margin-left: 10px;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 42%;
+  height: 45px;
+  background-color: #fff;
+  position: relative;
+  top: -24px;
+}
+
+
+ .btn-lg {
+  font-family: 'Merriweather';
+  font-size: 20px;
+  font-weight: bold;
+  width: 78%;
+  height: 50px;
+  margin-left: 75px; */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  / Opera/IE 8+ */
+}
+ media only screen and (min-width: 1281px)
+ label.error {
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding-top: 0;
+ }

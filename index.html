@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <title>Code Challenge</title>
+</head>
+
+<body>
+  <h1 class="heading">Internship Signup Form</h1>
+  <hr>
+  <span>
+    <p>Prepare for your career with a project Management, Web-Development, Graphic desigh, or Digital <br />Marketing Internship at Northern.</p>
+  </span>
+  <!-- Email Form  -->
+  <div>
+    <form name="RegForm" action="index.html" onsubmit="return checkForm()" method="post">
+      <input type="text" size=65 name="Email" placeholder=" Your Email Address *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+      <div class="clearFix">
+        <select id="soflow" type="text" value="" name="Interest">
+          <option>Your Interest</option>
+          <option>Development</option>
+          <option>Tester</option>
+          <option>Designer</option>
+          <option>Other</option>
+        </select><br><br>
+      </div>
+      <button class="btn btn-danger btn-lg btn-block" type="submit" value="send" name="Submit">Sign Up ▻</button>
+    </form>
+  </div>
+
+<!--
+  <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary">Loading state</button> -->
+
+
+  <!-- <button type="button" class="btn btn-primary btn-lg" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing Order">Submit Order</button> -->
+
+</body>
+
+</html>
